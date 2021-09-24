@@ -1,0 +1,48 @@
+/* *,
+*:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}  */
+
+.btn:focus,
+.btn:active,
+input:focus,
+input:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    color: white;
+}
+
+.card-contents {
+    min-height: 20em;
+    max-width: 30em;
+}
+
+.top-ad {
+    min-height: 5em;
+}
+.top-bottom {
+    min-height: 50em;
+}
+
+
+
+/* 768 이하는 */
+@media (max-width:768px) {
+
+    .card-contents {
+        min-height: 20em;
+        max-width: inherit;
+    }
+
+    .top-ad {
+        min-height: 1em;
+    }
+}
