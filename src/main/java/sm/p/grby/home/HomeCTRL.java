@@ -15,6 +15,7 @@ public class HomeCTRL {
     public String index() {
         System.out.println("incomming index page ");
         logger.debug("test");
+        logger.debug("test2");
         return "home/index";
     }
     
