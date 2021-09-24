@@ -14,6 +14,7 @@ public class HomeCTRL {
     @GetMapping(value="/")
     public String index() {
         System.out.println("incomming index page ");
+        logger.debug("test");
         return "home/index";
     }
     
