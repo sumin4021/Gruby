@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#"><h1>Grby-</h1></a>
+                <a class="navbar-brand" href="#"><h1>Gruby-</h1></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>

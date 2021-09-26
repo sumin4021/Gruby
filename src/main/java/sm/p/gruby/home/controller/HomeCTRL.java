@@ -1,4 +1,4 @@
-package sm.p.grby.home;
+package sm.p.gruby.home.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

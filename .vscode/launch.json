@@ -2,12 +2,22 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-App<grby>",
+            "name": "Spring Boot-App<gruby>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "mainClass": "sm.p.grby.App",
-            "projectName": "grby",
+            "mainClass": "sm.p.gruby.App",
+            "projectName": "gruby",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-App<gruby>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "sm.p.gruby.App",
+            "projectName": "gruby",
             "args": ""
         }
     ]
