@@ -32,5 +32,5 @@ git branch --set-upstream-to origin/dev
 
 
 2. merge 작업 후 리모트에서 브랜치 삭제 안하고 로컬에서 진행 할경우.
-    2-1.   
-    
+    2-1.  
+
