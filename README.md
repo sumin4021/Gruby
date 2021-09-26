@@ -19,7 +19,7 @@
 5. git push origin 'name' 으로 'name' 원격지에도 브랜치 생성.
 
 ** 브랜치 연동 - 5.까지 진행하여 생성된 branch는 각자가 local 및 저장소 기준이므로, local의 branch를 retmoe branch와 연동하는 작업을 수행하는 것이 좋습니다.
-git branch --set-upstream-to origin/dev
+git branch --set-upstream-to origin/'name'
 
 
 
