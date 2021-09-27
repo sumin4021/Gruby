@@ -7,14 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-public class HomeCTRL {
+public class HomeController {
     
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
     
-    @GetMapping(value="/")
+    @GetMapping(value={"/", ""})
     public String index() {
-        System.out.println("incomming index page ");
-        logger.debug("test");
         logger.debug("test2");
         return "home/index";
     }
