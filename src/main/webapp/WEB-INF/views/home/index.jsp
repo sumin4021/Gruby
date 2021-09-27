@@ -4,43 +4,20 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <%@ include file="../cmmn/cmmn_style.jsp" %>
-</head>
+<%-- head --%>
+<%@ include file="../cmmn/head.jsp" %>
 
 <body class="bg-dark">
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#"><h1>Gruby-</h1></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav w-100">
-                        <a class="nav-link active" href="#">menu1</a>
-                        <a class="nav-link" href="#">menu2</a>
-                        <a class="nav-link" href="#">menu3</a>
-                        <a class="nav-link disabled">menu4</a>
-                    </div>
-                    <form class="d-flex float-end">
-                    
-                        <button class="btn btn-sm btn-outline-danger" type="submit">LOGIN</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
 
+    <%-- header --%>
+    <%@ include file="../cmmn/header.jsp" %>
+
+    <%-- real body --%>
     <div class="container">
 
         <div class="top-ad"></div>
+
+
 
         <div class="row g-3">
             <div class="col-md-6 col-12"> <!-- 상단 좌측 -->
@@ -79,8 +56,8 @@
 
 
         <div class="top-bottom"></div>
-    </div>
 
+    </div>
 
 </body>
 
