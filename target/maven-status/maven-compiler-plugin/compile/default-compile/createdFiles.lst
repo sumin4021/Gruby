@@ -1,8 +1,10 @@
-sm/p/gruby/home/controller/HomeCTRL.class
 sm/p/gruby/App.class
 sm/p/gruby/home/service/HomeService.class
 sm/p/gruby/core/GrubyConfig.class
+sm/p/gruby/user/controller/UserController.class
 sm/p/gruby/home/service/HomeMapper.class
+sm/p/gruby/home/controller/HomeController.class
 META-INF/spring-configuration-metadata.json
+sm/p/gruby/user/sso/SocialType.class
 sm/p/gruby/core/GrubyInterceptor.class
 sm/p/gruby/home/service/HomeVO.class

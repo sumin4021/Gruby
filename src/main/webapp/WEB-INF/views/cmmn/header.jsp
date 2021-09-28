@@ -18,10 +18,12 @@
                     <a class="nav-link" href="#">menu3</a>
                     <a class="nav-link disabled">menu4</a>
                 </div>
-                <form action="/login" class="d-flex float-end">
-
+                <%-- <form action="/login" class="d-flex float-end">
                     <button class="btn btn-sm btn-outline-danger" type="submit">LOGIN</button>
-                </form>
+                </form> --%>
+                <div class="d-flex float-end">
+                    <a href="http://localhost/oauth2/authorization/google" class="btn btn-sm btn-outline-danger"> GOOGLE </a>
+                </div>
             </div>
         </div>
     </nav>

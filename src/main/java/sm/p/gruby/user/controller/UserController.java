@@ -17,5 +17,10 @@ public class UserController {
         return "user/login";
     }
 
+    @GetMapping("/google/oauth2/callback")
+    public String googleCallback() {
+        logger.info("login");
+        return "user/login";
+    }
 
 }
